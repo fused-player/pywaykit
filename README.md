@@ -97,7 +97,7 @@ stored_text, sender_msgs, receiver_msgs = read_wmsg()
 ```python
 from pywaykit import get_message_data
 
-get_message_data(phone_no="91xxxxxxxxxx", message="Preview only")
+get_message_data(phone_no="91xxxxxxxxxx", message=" ") # here the message arg does almost nothing so keep it as an empty string.
 ```
 
 ---
@@ -106,4 +106,7 @@ get_message_data(phone_no="91xxxxxxxxxx", message="Preview only")
 
 - Works only on Linux with Firefox.
 - First run requires QR login (saved for future runs).
-- Ensure `ydotoold` service is running.
+- Feel free to contribute.
+---
+
+## If you like this project, give this repo a ⭐ !
