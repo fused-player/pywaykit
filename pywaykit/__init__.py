@@ -21,4 +21,4 @@ for m in get_monitors():
 t = time.localtime()
 hours,mins,secs = int(time.strftime("%H", t)),int(time.strftime("%M", t)),int(time.strftime("%S", t))
 
-from .main import run_with_firefox, read_wmsg, get_message_data
+from .main import send_msg, read_wmsg, get_message_data
