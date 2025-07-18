@@ -97,7 +97,7 @@ stored_text, a_msgs, b_msgs = read_wmsg()
 ```python
 from pywaykit import get_message_data
 
-get_message_data(phone_no="91xxxxxxxxxx", message=" ") # here the message arg does almost nothing so keep it as an empty string.
+get_message_data(phone_no="+91xxxxxxxxxx", message=" ") # here the message arg does almost nothing so keep it as an empty string.
 ```
 
 ---
