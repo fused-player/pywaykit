@@ -89,7 +89,7 @@ send_msg(
 ```python
 from pywaykit import read_wmsg
 
-stored_text, sender_msgs, receiver_msgs = read_wmsg()
+stored_text, a_msgs, b_msgs = read_wmsg()
 ```
 
 ### Load WhatsApp Chat (No Message Sent)
