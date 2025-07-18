@@ -4,8 +4,8 @@ import time
 import subprocess
 from screeninfo import get_monitors
 
-subprocess.run("kill $(ps aux | grep '[y]dotoold' | awk '{print $2}')")
-subprocess.run("ydotoold &")
+subprocess.run("kill $(ps aux | grep '[y]dotoold' | awk '{print $2}')",shell=True)
+subprocess.run("ydotoold &",shell=True)
 
 time.sleep(1)
 
