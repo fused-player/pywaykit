@@ -47,8 +47,7 @@ class Ydotool:
         """
         Simulate pressing the Enter key.
         """
-        self.key(28, 1)
-        self.key(28, 0)
+        subprocess.run("bash -c \"ydotool type $'\\n'\"", shell=True)
 
     def Left_click(self):
         """
